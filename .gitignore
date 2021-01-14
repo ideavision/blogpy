@@ -10,3 +10,4 @@ blog/migrations/
 .env
 
 files/
+static/

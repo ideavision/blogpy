@@ -26,7 +26,8 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls')),
 ]
 
-if settings.DEBUG:
-    urlpatterns+=static(settings.MEDIA_URL, document_root =settings.MEDIA_ROOT)
-    urlpatterns+=static('/contact/static/',document_root=settings.STATIC_ROOT)
+# for Development and Local 
+# if settings.DEBUG:
+#     urlpatterns+=static(settings.MEDIA_URL, document_root =settings.MEDIA_ROOT)
+#     urlpatterns+=static('/contact/static/',document_root=settings.STATIC_ROOT)
 
